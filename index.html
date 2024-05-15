@@ -29,40 +29,49 @@
     </style>
   </head>
   <body class="text-text">
-    <header class="py-[16px]">
-      <div class="max-w-[1248px] mx-auto">
+    <div
+      class="px-[16px] md:px-[48px] xl:px-[0px] xl:max-w-[1248px] xl:mx-auto"
+    >
+      <header class="py-[12px] md:py-[16px]">
         <navbar class="flex justify-between items-center">
-          <div class="flex gap-[24px] justify-between items-center">
-            <div class="flex gap-[16px] justify-between items-center">
-              <img src="./images/author-logo.svg" alt="author-logo" />
-              <div class="mr-[12px] text-[16px] font-[600]">It's me</div>
+          <div class="flex gap-[24px] items-center">
+            <div
+              class="flex gap-[8px] md:gap-[16px] justify-between items-center"
+            >
+              <img
+                src="./images/author-logo.svg"
+                alt="author-logo"
+                class="w-[24px] md:w-[40px]"
+              />
+              <div class="text-[16px] font-[600]">It's me</div>
             </div>
-            <div class="flex gap-[8px] justify-between items-center py-[8px]">
-              <div class="px-[12px] py-[8px]">home</div>
-              <div class="px-[12px] py-[8px]">about</div>
-              <div class="px-[12px] py-[8px]">contact</div>
+            <div class="hidden md:flex gap-[8px] justify-between items-center">
+              <div class="px-[12px]">home</div>
+              <div class="px-[12px]">about</div>
+              <div class="px-[12px]">contact</div>
             </div>
           </div>
-          <div class="flex gap-[24px] items-center">
-            <div class="py-[7px] flex gap-[24px] items-center">
+          <div
+            class="flex gap-[12px] xl:gap-[24px] justify-between items-center"
+          >
+            <div class="hidden xl:flex gap-[24px] items-center">
               <img src="./images/icon-github.svg" alt="icon-github" />
               <img src="./images/icon-instagram.svg" alt="icon-instagram" />
               <img src="./images/icon-tiktok.svg" alt="icon-tiktok" />
               <img src="./images/icon-youtube.svg" alt="icon-youtube" />
             </div>
             <button
-              class="px-[24px] py-[7.5px] border border-brand rounded-[23px]"
+              class="px-[24px] py-[8px] border border-brand rounded-[23px]"
             >
               Download CV
             </button>
+            <img src="./images/menu.svg" alt="menu" class="md:hidden" />
           </div>
         </navbar>
-      </div>
-    </header>
-    <main>
+      </header>
+      <!-- <main>
       <section class="py-[48px]">
         <div class="max-w-[1248px] mx-auto">
-          <!--div1-->
           <div class="flex justify-between items-center pr-[16px] mb-[56px]">
             <h1 class="text-[72px] leading-[1.02] font-[300]">
               <span class="flex gap-[22px] items-center"
@@ -91,7 +100,7 @@
               </button>
             </div>
           </div>
-          <!--div2-->
+
           <div class="flex gap-[36px] items-center mb-[36px]">
             <div
               class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
@@ -119,25 +128,17 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -168,25 +169,17 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -217,31 +210,22 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!--div3-->
           <div class="flex gap-[36px] items-center mb-[36px]">
             <div
               class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
@@ -269,25 +253,17 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -318,25 +294,17 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
@@ -367,31 +335,22 @@
                 <div class="py-[11px]">
                   <div class="p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')]"
-                    >
-                      <!--<img src="./images/avatar-1.svg" alt="avatar-1" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')]"
-                    >
-                      <!--<img src="./images/avatar-2.svg" alt="avatar-2" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                    ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')]"
-                    >
-                      <!--<img src="./images/avatar-3.svg" alt="avatar-3" />-->
-                    </div>
+                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                    ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
-                    >
-                      <!--<img src="./images/avatar-more.svg" alt="avatar-more" />-->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!--divbutton-->
           <div class="flex justify-center">
             <button
               class="border border-brand rounded-[23px] px-[24px] py-[8px]"
@@ -401,7 +360,6 @@
           </div>
         </div>
       </section>
-      <!--It’s me Arif Iskandar-->
       <section class="py-[96px]">
         <div class="max-w-[1248px] mx-auto">
           <div class="mb-[96px] flex gap-[48px] justify-between">
@@ -542,11 +500,12 @@
           </div>
         </div>
       </section>
-      <!--What are you waiting for?-->
       <section class="py-[32px]">
         <div class="max-w-[1248px] mx-auto">
           <div class="flex flex-col gap-[32px] items-center">
-            <div class="text-[24px] leading-[1.02] font-[300] text-center">
+            <div
+              class="text-[24px] text-black leading-[1.02] font-[300] text-center"
+            >
               What are you waiting for?
             </div>
             <button
@@ -557,7 +516,8 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer class="mb-[75px]"></footer>
+    </main> -->
+      <footer class="mb-[75px]"></footer>
+    </div>
   </body>
 </html>
