@@ -69,45 +69,74 @@
           </div>
         </navbar>
       </header>
-      <!-- <main>
-      <section class="py-[48px]">
-        <div class="max-w-[1248px] mx-auto">
-          <div class="flex justify-between items-center pr-[16px] mb-[56px]">
-            <h1 class="text-[72px] leading-[1.02] font-[300]">
-              <span class="flex gap-[22px] items-center"
+      <main>
+        <section class="py-[48px]">
+          <div
+            class="flex flex-col xl:flex-row gap-[32px] xl:justify-between xl:items-center mb-[56px]"
+          >
+            <h1
+              class="text-[33px] md:text-[72px] leading-[1.2] md:leading-[1.02] font-[300]"
+            >
+              <span class="flex gap-[12px] md:gap-[22px] items-center"
                 >Let's learn<img
                   src="./images/Book_open_light.svg"
                   alt="book-open-light"
+                  width="36px"
                 />
               </span>
-              <span class="flex gap-[22px] items-center"
+              <span class="flex gap-[12px] md:gap-[22px] items-center"
                 >to code<img
                   src="./images/Subttasks_light.svg"
                   alt="subttasks-light"
+                  width="36px"
               /></span>
               <span>an application</span>
             </h1>
-            <div class="max-w-[374px] self-end">
-              <p class="text-[16px] mb-[32px]">
-                with me <span class="text-brand">arif iskandar</span>, a
-                software developer who loves to share how to code in many
-                programing languages and multi platforms.
-              </p>
-              <button
-                class="bg-brand text-white rounded-[23px] px-[24px] py-[8px]"
-              >
-                Start learn
-              </button>
+            <div class="xl:max-w-[374px] xl:self-end">
+              <div class="md:flex md:justify-between">
+                <div>
+                  <p class="text-[16px] mb-[32px] md:max-w-[374px]">
+                    with me <span class="text-brand">arif iskandar</span>, a
+                    software developer who loves to share how to code in many
+                    programing languages and multi platforms.
+                  </p>
+                  <div class="flex gap-[16px] items-center">
+                    <button
+                      class="bg-brand text-white rounded-[23px] px-[24px] py-[8px]"
+                    >
+                      Start learn
+                    </button>
+                    <div class="flex md:hidden gap-[16px] items-center">
+                      <img src="./images/icon-github.svg" alt="icon-github" />
+                      <img
+                        src="./images/icon-instagram.svg"
+                        alt="icon-instagram"
+                      />
+                      <img src="./images/icon-tiktok.svg" alt="icon-tiktok" />
+                      <img src="./images/icon-youtube.svg" alt="icon-youtube" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="hidden md:flex xl:hidden md:flex-col md:gap-[24px] min-w-[24px] mt-[-12px]"
+                >
+                  <img src="./images/icon-github.svg" alt="icon-github" />
+                  <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+                  <img src="./images/icon-tiktok.svg" alt="icon-tiktok" />
+                  <img src="./images/icon-youtube.svg" alt="icon-youtube" />
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="flex gap-[36px] items-center mb-[36px]">
+          <div
+            class="flex flex-col md:flex-row md:flex-wrap gap-[12px] xl:gap-[36px]"
+          >
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] order-2 md:order-1"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-a.svg" alt="tools-logo-a" />
                   <img src="./images/tools-logo-b.svg" alt="tools-logo-b" />
@@ -119,22 +148,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     Bookies
                   </div>
                   <div>Read digital book app</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -144,11 +175,11 @@
               </div>
             </div>
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="hidden md:block md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] md:order-2"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-c.svg" alt="tools-logo-c" />
                   <img src="./images/tools-logo-d.svg" alt="tools-logo-d" />
@@ -160,22 +191,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     BWalet
                   </div>
                   <div>Business wallet</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -185,11 +218,11 @@
               </div>
             </div>
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="hidden xl:block md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] md:order-3"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-a.svg" alt="tools-logo-a" />
                   <img src="./images/tools-logo-d.svg" alt="tools-logo-d" />
@@ -201,22 +234,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     Gojek
                   </div>
                   <div>Home screen gojek apps</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -225,14 +260,12 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="flex gap-[36px] items-center mb-[36px]">
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="hidden xl:block md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] md:order-4"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-a.svg" alt="tools-logo-a" />
                   <img src="./images/tools-logo-b.svg" alt="tools-logo-b" />
@@ -244,22 +277,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     Bookies
                   </div>
                   <div>Read digital book app</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -269,11 +304,11 @@
               </div>
             </div>
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] order-1 md:order-5"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-c.svg" alt="tools-logo-c" />
                   <img src="./images/tools-logo-d.svg" alt="tools-logo-d" />
@@ -285,22 +320,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     BWalet
                   </div>
                   <div>Business wallet</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -310,11 +347,11 @@
               </div>
             </div>
             <div
-              class="p-[16px] border-2 border-cream border-dashed rounded-[32px]"
+              class="md:w-[calc(100%/2-6px)] xl:w-[calc(100%/3-24px)] p-[12px] xl:p-[16px] border-2 border-cream border-dashed rounded-[32px] order-3 md:order-6"
             >
               <div class="relative flex justify-end">
                 <div
-                  class="max-w-[90px] flex gap-[10px] justify-between items-center p-[8px] absolute"
+                  class="flex gap-[10px] justify-between items-center p-[8px] absolute"
                 >
                   <img src="./images/tools-logo-a.svg" alt="tools-logo-a" />
                   <img src="./images/tools-logo-d.svg" alt="tools-logo-d" />
@@ -326,22 +363,24 @@
                 />
               </div>
               <div class="flex gap-[12px] justify-between items-center">
-                <div class="pl-[16px] mt-[16px]">
-                  <div class="text-[24px] leading-[1.02] font-[500] mb-[8px]">
+                <div class="pl-[8px] md:pl-[16px] mt-[16px]">
+                  <div
+                    class="text-[18px] leading-[1.2] md:text-[24px] md:leading-[1.02] font-[500] mb-[4px] md:mb-[8px]"
+                  >
                     Gojek
                   </div>
                   <div>Home screen gojek apps</div>
                 </div>
                 <div class="py-[11px]">
-                  <div class="p-[10px] flex">
+                  <div class="min-w-[56px] md:min-w-[116px] p-[10px] flex">
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-1.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-2.svg')] mr-[-18px]"
                     ></div>
                     <div
-                      class="w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
+                      class="hidden md:block w-[36px] h-[36px] bg-[url('./images/avatar-3.svg')] mr-[-18px]"
                     ></div>
                     <div
                       class="w-[36px] h-[36px] bg-[url('./images/avatar-more.svg')]"
@@ -351,30 +390,42 @@
               </div>
             </div>
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center mt-[12px] xl:mt-[36px]">
             <button
               class="border border-brand rounded-[23px] px-[24px] py-[8px]"
             >
               Load more
             </button>
           </div>
-        </div>
-      </section>
-      <section class="py-[96px]">
-        <div class="max-w-[1248px] mx-auto">
-          <div class="mb-[96px] flex gap-[48px] justify-between">
-            <h2 class="text-[72px] leading-[1.02] font-[300]">
-              <span class="flex gap-[22px] items-center"
-                >It's me<img
-                  src="./images/author-logo.svg"
-                  alt="author-logo.svg"
-                  width="56px"
-                  height="auto"
-              /></span>
-              <span>Arif Iskandar</span>
-            </h2>
-            <div class="max-w-[526px] text-[20px] font-inter">
-              <p class="mb-[32px]">
+        </section>
+        <section class="py-[36px] xl:py-[96px]">
+          <div class="xl:flex gap-[48px] justify-between">
+            <div class="flex justify-between items-center xl:items-start">
+              <h2
+                class="text-[33px] md:text-[72px] leading-[1.2] md:leading-[1.02] font-[300]"
+              >
+                <span class="flex gap-[20px] items-center"
+                  >It's me<img
+                    src="./images/author-logo.svg"
+                    alt="author-logo.svg"
+                    width="56px"
+                    height="auto"
+                    class="hidden md:block"
+                /></span>
+                <span>Arif Iskandar</span>
+              </h2>
+              <img
+                src="./images/author-logo.svg"
+                alt="author-logo.svg"
+                width="56px"
+                height="auto"
+                class="md:hidden"
+              />
+            </div>
+            <div
+              class="md:max-w-[526px] text-[16px] md:text-[20px] font-inter mt-[32px] md:mt-[48px] xl:mt-[0px]"
+            >
+              <p class="mb-[26px] md:mb-[32px]">
                 I like to code and keep it simple, try something new, and learn
                 more. I think sharing knowledge is the best practice to improve
                 my skills, and I try to do it.
@@ -386,8 +437,8 @@
               </p>
             </div>
           </div>
-          <div class="flex gap-[32px]">
-            <div class="flex-1">
+          <div class="md:flex gap-[32px] mt-[96px]">
+            <div class="hidden xl:block flex-1">
               <div
                 class="p-[16px] border border-cream rounded-[23px] mb-[32px]"
               >
@@ -465,7 +516,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex-1">
+            <div class="hidden md:block flex-1">
               <div
                 class="p-[16px] border border-cream rounded-[23px] mb-[32px]"
               >
@@ -498,15 +549,13 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="py-[32px]">
-        <div class="max-w-[1248px] mx-auto">
+        </section>
+        <section class="py-[80px] md:py-[32px]">
           <div class="flex flex-col gap-[32px] items-center">
             <div
-              class="text-[24px] text-black leading-[1.02] font-[300] text-center"
+              class="md:max-w-none max-w-[203px] text-[24px] text-black leading-[1.02] font-[300] text-center"
             >
-              What are you waiting for?
+              <span class="md:hidden">So, </span>What are you waiting for?
             </div>
             <button
               class="inline-block bg-brand text-white rounded-[23px] px-[24px] py-[8px]"
@@ -514,10 +563,9 @@
               Let's start
             </button>
           </div>
-        </div>
-      </section>
-    </main> -->
-      <footer class="mb-[75px]"></footer>
+        </section>
+      </main>
+      <footer class="h-[43px] md:h-[0px] xl:h-[75px]"></footer>
     </div>
   </body>
 </html>
